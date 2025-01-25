@@ -12,9 +12,3 @@ The application supports features like user authentication, game score managemen
 # Run the Application
   - Use IntelliJ IDEA or a terminal to execute the Main.kt file
   - Access it by opening a browser and going to http://localhost:4567/
-  
-    
-
-  
-  
-  
