@@ -15,24 +15,8 @@ The application supports features like user authentication, game score managemen
 
 # Compilation
 
-  * Set Up the Database by creating the required tables in MySQL
-    ↘︎
-      CREATE TABLE user (
-      id INT AUTO_INCREMENT PRIMARY KEY,
-      fullname VARCHAR(255) NOT NULL,
-      login VARCHAR(50) NOT NULL UNIQUE,
-      password VARCHAR(255) NOT NULL
-      );
-    ↘︎
-      CREATE TABLE games (
-          id INT AUTO_INCREMENT PRIMARY KEY,
-          apples INT NOT NULL,
-          time DOUBLE NOT NULL,
-          ownerid INT NOT NULL,
-          FOREIGN KEY (ownerid) REFERENCES user(id)
-      );
-
-    * Configure Database Credentials --> DriverManager.getConnection("jdbc:mysql://localhost/gamedb", "root", "root")
+  - Set Up the Database by creating the 'user' and 'games' tables in MySQL
+  - Configure Database Credentials --> DriverManager.getConnection("jdbc:mysql://localhost/gamedb", "root", "root")
 
 # Run the Application
   - Use IntelliJ IDEA or a terminal to execute the Main.kt file
