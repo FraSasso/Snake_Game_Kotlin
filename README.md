@@ -7,13 +7,10 @@ The application supports features like user authentication, game score managemen
 
 # File Overview
 
-  Main.kt --> Sets up the core application, including routes and database connectivity.
-
-  PlayerInfo.kt --> Manages user information and authentication in relation to the database.
-    
-  Score.kt --> Handles game score data storage and retrieval.
-
-  SecureTemplateViewRoute.kt --> Implements a secure routing interface for templates.
+- Main.kt --> Sets up the core application, including routes and database connectivity.
+- PlayerInfo.kt --> Manages user information and authentication in relation to the database.
+- Score.kt --> Handles game score data storage and retrieval.
+- SecureTemplateViewRoute.kt --> Implements a secure routing interface for templates.
 
 
 # Compilation
@@ -38,8 +35,8 @@ The application supports features like user authentication, game score managemen
     * Configure Database Credentials --> DriverManager.getConnection("jdbc:mysql://localhost/gamedb", "root", "root")
 
 # Run the Application
-  Use IntelliJ IDEA or a terminal to execute the Main.kt file
-  Access it by opening a browser and going to http://localhost:4567/
+  - Use IntelliJ IDEA or a terminal to execute the Main.kt file
+  - Access it by opening a browser and going to http://localhost:4567/
   
     
 
